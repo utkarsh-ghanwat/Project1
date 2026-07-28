@@ -18,7 +18,7 @@ function App() {
       {currentPage === "login" && isLoggedIn ? (
         <h1>Welcome, Admin!</h1>
       ) : (
-        <Login onLogin={() => setIsLoggedIn(true)} />  // Login
+        <Login onLogin={() => setIsLoggedIn(true)} />
       )}
     </div>
   )
