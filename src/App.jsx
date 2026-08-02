@@ -20,6 +20,7 @@ function App() {
       ) : (
         <Login onLogin={() => setIsLoggedIn(true)} /> // Login
       )}
+        <button>Submit</button>
 
     </div>
   )
