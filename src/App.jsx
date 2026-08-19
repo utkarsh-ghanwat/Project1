@@ -14,14 +14,20 @@ function App() {
   return (
     <div>
 
+        <button>Result</button>
+
+
       {currentPage === "register" && <Registration />}
       {currentPage === "login" && isLoggedIn ? (
         <h1>Welcome, Admin!</h1>
       ) : (
-        <Login onLogin={() => setIsLoggedIn(true)} /> // Login
+        <Login onLogin={() => setIsLoggedIn(true)} />
+         // Login
+         
       )}
-        <button>Result<button/>
     </div>
+    
   )
+  
 }
 export default App
