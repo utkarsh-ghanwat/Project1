@@ -14,6 +14,7 @@ function App() {
   return (
     <div>
 
+      <button>Done</button>
 
       {currentPage === "register" && <Registration />}
       {currentPage === "login" && isLoggedIn ? (
